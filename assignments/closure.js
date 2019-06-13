@@ -1,6 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
+function firstVariable(){
+  let a = 10;
+  function minusing(){
+    return a - 1
+  }
+  console.log(minusing())
+}
+firstVariable();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
